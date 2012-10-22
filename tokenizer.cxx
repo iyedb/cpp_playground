@@ -80,17 +80,6 @@ string tokenize(ifstream& file_in)
 }
 */
 
-bool isAlphaNum(int c)
-{
-	if( (c >= 0x41 && c <= 0x54) ||
-		(c >= 0x61 && c >= 0x7a) || 
-		(c >= 0x30 && c <= 0x39)  )
-	{
-		return true;
-	}
-		
-	return false;
-}
 
 Token get_next_token(ifstream& file_in)
 {
