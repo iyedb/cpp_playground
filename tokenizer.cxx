@@ -176,9 +176,6 @@ public:
 private:
 
 	Token data;
-
-
-
 	Node *child;
 	Node *parent;
 	Node *next_sibling;
